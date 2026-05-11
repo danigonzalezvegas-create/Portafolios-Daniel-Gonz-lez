@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proyectos – Daniel González Vegas</title>
+  <link rel="stylesheet" href="Style.css"/>
+  <link rel="stylesheet" href="proyectos.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&family=M+PLUS+Rounded+1c:wght@400;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- TRANSICIÓN DE ENTRADA -->
+  <div id="pry-transition">
+    <div class="smt-bg"></div>
+    <div class="smt-content">
+      <div class="smt-icon">
+        <svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+          <path d="M8 24 Q8 18 14 18 L32 18 L38 24 L66 24 Q72 24 72 30 L72 60 Q72 66 66 66 L14 66 Q8 66 8 60 Z" fill="#c8d8ea" stroke="#9ab0c8" stroke-width="2"/>
+          <path d="M8 18 Q8 14 12 14 L30 14 L36 20 L8 20 Z" fill="#b8cce0" stroke="#9ab0c8" stroke-width="1.5"/>
+          <line x1="20" y1="36" x2="36" y2="36" stroke="#9ab0c8" stroke-width="2" stroke-linecap="round"/>
+          <line x1="20" y1="44" x2="50" y2="44" stroke="#9ab0c8" stroke-width="2" stroke-linecap="round"/>
+          <line x1="20" y1="52" x2="42" y2="52" stroke="#9ab0c8" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="62" cy="16" r="6" fill="#4ab8e8" opacity="0.85" class="pry-pulse"/>
+        </svg>
+      </div>
+      <div class="smt-title">Proyectos</div>
+      <div class="smt-bar-wrap"><div class="smt-bar"></div></div>
+      <div class="smt-subtitle">Cargando repositorios...</div>
+    </div>
+  </div>
+
+  <!-- FONDO WII -->
+  <div class="wii-bg">
+    <div class="wii-bg-lines"></div>
+    <div class="wii-bg-shine"></div>
+    <div class="wii-bg-text">Wii</div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="wii-header">
+    <div class="header-left">
+      <a href="index.html" class="sm-back-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
+        </svg>
+      </a>
+      <div class="wii-logo-pill">Wii</div>
+      <span class="header-name">Proyectos</span>
+    </div>
+    <div class="header-right">
+      <a href="https://github.com/dashboard" target="_blank" class="header-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+        GitHub
+      </a>
+    </div>
+  </header>
+
+  <main class="sm-main">
+
+    <!-- CABECERA -->
+    <div class="pry-header-card">
+      <div class="pry-header-icon">
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+          <circle cx="24" cy="24" r="22" fill="#dce8f4" stroke="#b8cce0" stroke-width="2"/>
+          <path d="M10 30 L10 18 Q10 14 14 14 L22 14 L26 18 L34 18 Q38 18 38 22 L38 30 Q38 34 34 34 L14 34 Q10 34 10 30 Z" fill="#c8d8ea" stroke="#9ab0c8" stroke-width="1.5"/>
+          <line x1="16" y1="24" x2="24" y2="24" stroke="#9ab0c8" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="16" y1="28" x2="28" y2="28" stroke="#9ab0c8" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div>
+        <h1 class="est-header-title">Mis Proyectos</h1>
+        <p class="est-header-sub">Cosas que he construido, experimentado y aprendido por el camino</p>
+      </div>
+    </div>
+
+    <!-- FILTROS -->
+    <div class="pry-filters">
+      <button class="pry-filter pry-filter--active" data-filter="all">Todos</button>
+      <button class="pry-filter" data-filter="web">Web</button>
+      <button class="pry-filter" data-filter="sistemas">Sistemas</button>
+      <button class="pry-filter" data-filter="app">App</button>
+    </div>
+
+    <!-- GRID DE PROYECTOS -->
+    <!-- Para añadir más proyectos en el futuro, copia un bloque .pry-card y pégalo aquí -->
+    <div class="pry-grid" id="pry-grid">
+
+      <!-- PROYECTO 1 -->
+      <div class="pry-card" data-cat="web">
+        <div class="pry-card-top pry-top--web">
+          <div class="pry-card-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <div class="pry-card-status pry-status--done">Completado</div>
+        </div>
+        <div class="pry-card-body">
+          <h2 class="pry-card-title">Portfolio Wii</h2>
+          <p class="pry-card-desc">Portafolio personal con estética inspirada en la interfaz de la Nintendo Wii. Animaciones CSS, sonidos generados con Web Audio API y navegación por teclado.</p>
+          <div class="pry-tags">
+            <span class="pry-tag">HTML</span>
+            <span class="pry-tag">CSS</span>
+            <span class="pry-tag">JavaScript</span>
+            <span class="pry-tag">Web Audio</span>
+          </div>
+        </div>
+        <div class="pry-card-footer">
+          <a href="https://danigonzalezvegas-create.github.io/PaginaWeb-ServidorFivem/" target="_blank" class="pry-btn pry-btn--ver">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+            Ver Proyecto
+          </a>
+        </div>
+      </div>
+
+      <!-- PROYECTO 2 -->
+      <div class="pry-card" data-cat="sistemas">
+        <div class="pry-card-top pry-top--sistemas">
+          <div class="pry-card-icon">
+             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <div class="pry-card-status pry-status--wip">En proceso</div>
+        </div>
+        <div class="pry-card-body">
+          <h2 class="pry-card-title">PaginaWeb-Empresa Navicom</h2>
+          <p class="pry-card-desc">Página web diseñada para la empresa Navicom. Estilos propios, paleta de colores y transiciones animadas que reflejan la identidad corporativa del cliente.</p>
+          <div class="pry-tags">
+            <span class="pry-tag">HTML</span>
+            <span class="pry-tag">CSS</span>
+            <span class="pry-tag">JS</span>
+          </div>
+        </div>
+        <div class="pry-card-footer">
+          <a href="https://danigonzalezvegas-create.github.io/PaginaWeb-Navicom/" target="_blank" class="pry-btn pry-btn--ver">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+            Ver Proyecto
+          </a>
+        </div>
+      </div>
+
+      <!-- PROYECTO 3 -->
+      <div class="pry-card" data-cat="web">
+        <div class="pry-card-top pry-top--web">
+          <div class="pry-card-icon">
+             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8" stroke-linecap="round">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+            </svg>
+          </div>
+          <div class="pry-card-status pry-status--done">Completado</div>
+        </div>
+        <div class="pry-card-body">
+          <h2 class="pry-card-title">PaginaWeb-Servidor Fivem</h2>
+          <p class="pry-card-desc">He desarrollado una solución web integral para el servidor de FiveM, Calipso, centrada en la personalización absoluta y la experiencia del usuario. Este proyecto destaca por un diseño adaptado totalmente a los gustos y directrices del cliente, integrando paletas de colores específicas y estilos visuales únicos que refuerzan la identidad de su comunidad.El sitio no solo ofrece una estética cuidada con animaciones fluidas, sino que también incluye una infraestructura funcional completa, con un apartado de tienda optimizado para la gestión de beneficios y una navegación intuitiva diseñada para satisfacer las necesidades de los jugadores.</p>
+          <div class="pry-tags">
+            <span class="pry-tag">HTML</span>
+            <span class="pry-tag">MySQL</span>
+            <span class="pry-tag">CSS</span>
+            <span class="pry-tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="pry-card-footer">
+          <a href="https://danigonzalezvegas-create.github.io/PaginaWeb-ServidorFivem/" target="_blank" class="pry-btn pry-btn--ver">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+            Ver Proyecto
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- STATS -->
+    <div class="pry-stats-wrap">
+      <div class="sm-card pry-stats-card">
+        <div class="sm-card-header">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7a9ab8" stroke-width="2" stroke-linecap="round">
+            <path d="M18 20V10M12 20V4M6 20v-6"/>
+          </svg>
+          <h2>En números</h2>
+        </div>
+        <div class="pry-stats">
+          <div class="pry-stat">
+            <span class="pry-stat-num" id="stat-total">3</span>
+            <span class="pry-stat-lbl">Proyectos</span>
+          </div>
+          <div class="pry-stat">
+            <span class="pry-stat-num">2</span>
+            <span class="pry-stat-lbl">Completados</span>
+          </div>
+          <div class="pry-stat">
+            <span class="pry-stat-num">1</span>
+            <span class="pry-stat-lbl">En desarrollo</span>
+          </div>
+          <div class="pry-stat">
+            <span class="pry-stat-num">3</span>
+            <span class="pry-stat-lbl">Tecnologías</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="wii-footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <button class="wii-round-btn wii-round-btn--wii">Wii</button>
+        <div class="footer-links">
+          <a href="https://github.com/dashboard" target="_blank" class="footer-link">GitHub</a>
+        </div>
+      </div>
+      <div class="footer-clock-wrap">
+        <div id="footer-clock" class="footer-clock">00:00</div>
+        <div id="footer-ampm" class="footer-ampm">AM</div>
+        <div id="footer-date" class="footer-date">Lun 1/1</div>
+      </div>
+      <div class="footer-right">
+        <button class="wii-round-btn">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
+            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js.js"></script>
+  <script src="./Proyectos.js"></script>
+
+
+</body>
+</html>
